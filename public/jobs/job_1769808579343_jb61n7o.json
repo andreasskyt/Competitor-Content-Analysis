@@ -1,0 +1,48 @@
+{
+  "job": {
+    "id": "job_1769808579343_jb61n7o",
+    "createdAt": "2026-01-30T21:29:39.343Z",
+    "inputs": {
+      "channels": [
+        "https://www.youtube.com/@FrederikPahuus"
+      ],
+      "topN": 5,
+      "lookbackDays": 90,
+      "whisperFallback": true,
+      "whisperTopK": 5
+    },
+    "status": "done",
+    "meta": {
+      "runtime_ms": 2,
+      "whisper_used": 0,
+      "videos_skipped_due_to_budget": 0,
+      "videos_skipped_due_to_duration": 0
+    }
+  },
+  "summary": {
+    "videos_analyzed": 0,
+    "transcripts_used": 0,
+    "whisper_used": 0
+  },
+  "sources": {
+    "channels": [
+      {
+        "input": "https://www.youtube.com/@FrederikPahuus",
+        "channelId": "",
+        "title": "https://www.youtube.com/@FrederikPahuus",
+        "url": ""
+      }
+    ]
+  },
+  "items": [],
+  "report": {
+    "top_videos": [],
+    "winning_patterns": [],
+    "top_hooks": [],
+    "content_formats": [],
+    "cta_patterns": [],
+    "content_ideas": [],
+    "key_takeaway": "API key not configured",
+    "reason": "no_api_key"
+  }
+}

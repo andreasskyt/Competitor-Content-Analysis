@@ -1,0 +1,299 @@
+{
+  "job": {
+    "id": "job_1769811838895_sa10gk2",
+    "createdAt": "2026-01-30T22:23:58.895Z",
+    "inputs": {
+      "channels": [
+        "https://www.youtube.com/@nateherk"
+      ],
+      "topN": 5,
+      "lookbackDays": 90,
+      "whisperFallback": true,
+      "whisperTopK": 5
+    },
+    "status": "done",
+    "meta": {
+      "runtime_ms": 25252,
+      "whisper_used": 2,
+      "videos_skipped_due_to_budget": 0,
+      "videos_skipped_due_to_duration": 3,
+      "transcript_cache_hits": 0,
+      "analysis_cache_hits": 0
+    }
+  },
+  "summary": {
+    "videos_analyzed": 5,
+    "transcripts_used": 0,
+    "whisper_used": 2
+  },
+  "sources": {
+    "channels": [
+      {
+        "input": "https://www.youtube.com/@nateherk",
+        "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+        "title": "Nate Herk | AI Automation",
+        "url": "https://www.youtube.com/channel/UC2ojq-nuP8ceeHqiroeKhBA"
+      }
+    ]
+  },
+  "items": [
+    {
+      "platform": "youtube",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelTitle": "Nate Herk | AI Automation",
+      "videoId": "Fqeo8q8-nJg",
+      "url": "https://www.youtube.com/watch?v=Fqeo8q8-nJg",
+      "title": "How I'd Learn n8n if I had to Start Over in 2026",
+      "publishedAt": "2025-12-10T13:58:36Z",
+      "duration": "PT14M18S",
+      "stats": {
+        "views": 138611,
+        "likes": 6718,
+        "comments": 171
+      },
+      "transcript": {
+        "provider": "none",
+        "text": null,
+        "truncated": false,
+        "error": "ytdl.getInfo is not a function",
+        "reason": "whisper_error"
+      },
+      "analysis": {
+        "hook": "How I'd Learn n8n if I had to Start Over in 2026",
+        "power_words": [
+          "Learn",
+          "Start",
+          "Over"
+        ],
+        "theme": "Learning Automation",
+        "format": "tutorial",
+        "cta_present": true,
+        "cta_type": "course",
+        "why_it_worked_short": "The hook promises a structured approach to mastering n8n, appealing to beginners."
+      }
+    },
+    {
+      "platform": "youtube",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelTitle": "Nate Herk | AI Automation",
+      "videoId": "CBNbcbMs_Lc",
+      "url": "https://www.youtube.com/watch?v=CBNbcbMs_Lc",
+      "title": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+      "publishedAt": "2026-01-28T03:52:23Z",
+      "duration": "PT22M47S",
+      "stats": {
+        "views": 119667,
+        "likes": 3100,
+        "comments": 288
+      },
+      "transcript": {
+        "provider": "none",
+        "text": null,
+        "truncated": false,
+        "reason": "skipped_long_video"
+      },
+      "analysis": {
+        "hook": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+        "power_words": [
+          "Testing",
+          "honest",
+          "results"
+        ],
+        "theme": "AI Tools Comparison",
+        "format": "breakdown",
+        "cta_present": true,
+        "cta_type": "course",
+        "why_it_worked_short": "The hook promises a thorough comparison, appealing to viewers' desire for honest insights."
+      }
+    },
+    {
+      "platform": "youtube",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelTitle": "Nate Herk | AI Automation",
+      "videoId": "AO5aW01DKHo",
+      "url": "https://www.youtube.com/watch?v=AO5aW01DKHo",
+      "title": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+      "publishedAt": "2026-01-25T16:00:21Z",
+      "duration": "PT21M40S",
+      "stats": {
+        "views": 96704,
+        "likes": 3475,
+        "comments": 228
+      },
+      "transcript": {
+        "provider": "none",
+        "text": null,
+        "truncated": false,
+        "reason": "skipped_long_video"
+      },
+      "analysis": {
+        "hook": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+        "power_words": [
+          "Changed",
+          "AI",
+          "Automation"
+        ],
+        "theme": "AI Automation",
+        "format": "breakdown",
+        "cta_present": true,
+        "cta_type": "other",
+        "why_it_worked_short": "The hook emphasizes a significant change in AI, attracting viewers' curiosity."
+      }
+    },
+    {
+      "platform": "youtube",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelTitle": "Nate Herk | AI Automation",
+      "videoId": "67BVIScAlbs",
+      "url": "https://www.youtube.com/watch?v=67BVIScAlbs",
+      "title": "n8n 2.0 is Here (What You Need to Know)",
+      "publishedAt": "2025-12-08T11:00:13Z",
+      "duration": "PT11M8S",
+      "stats": {
+        "views": 93477,
+        "likes": 2169,
+        "comments": 129
+      },
+      "transcript": {
+        "provider": "none",
+        "text": null,
+        "truncated": false,
+        "error": "ytdl.getInfo is not a function",
+        "reason": "whisper_error"
+      },
+      "analysis": {
+        "hook": "n8n 2.0 is Here (What You Need to Know)",
+        "power_words": [
+          "Here",
+          "Need",
+          "Know"
+        ],
+        "theme": "Product Update",
+        "format": "breakdown",
+        "cta_present": true,
+        "cta_type": "other",
+        "why_it_worked_short": "The hook effectively conveys urgency and importance about the new version."
+      }
+    },
+    {
+      "platform": "youtube",
+      "channelId": "UC2ojq-nuP8ceeHqiroeKhBA",
+      "channelTitle": "Nate Herk | AI Automation",
+      "videoId": "Vb1SwBAn9cQ",
+      "url": "https://www.youtube.com/watch?v=Vb1SwBAn9cQ",
+      "title": "Build ANYTHING with Gemini 3 Pro and n8n AI Agents",
+      "publishedAt": "2025-11-19T00:53:19Z",
+      "duration": "PT24M12S",
+      "stats": {
+        "views": 87983,
+        "likes": 2062,
+        "comments": 153
+      },
+      "transcript": {
+        "provider": "none",
+        "text": null,
+        "truncated": false,
+        "reason": "skipped_long_video"
+      },
+      "analysis": {
+        "hook": "Build ANYTHING with Gemini 3 Pro and n8n AI Agents",
+        "power_words": [
+          "Build",
+          "ANYTHING",
+          "AI"
+        ],
+        "theme": "AI Automation",
+        "format": "breakdown",
+        "cta_present": true,
+        "cta_type": "course",
+        "why_it_worked_short": "The hook emphasizes limitless possibilities with powerful AI tools, attracting viewers interested in automation."
+      }
+    }
+  ],
+  "report": {
+    "top_videos": [
+      {
+        "rank": 1,
+        "hook": "How I'd Learn n8n if I had to Start Over in 2026",
+        "title": "How I'd Learn n8n if I had to Start Over in 2026",
+        "views": 138611
+      },
+      {
+        "rank": 2,
+        "hook": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+        "title": "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+        "views": 119667
+      },
+      {
+        "rank": 3,
+        "hook": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+        "title": "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+        "views": 96704
+      },
+      {
+        "rank": 4,
+        "hook": "n8n 2.0 is Here (What You Need to Know)",
+        "title": "n8n 2.0 is Here (What You Need to Know)",
+        "views": 93477
+      },
+      {
+        "rank": 5,
+        "hook": "Build ANYTHING with Gemini 3 Pro and n8n AI Agents",
+        "title": "Build ANYTHING with Gemini 3 Pro and n8n AI Agents",
+        "views": 87983
+      }
+    ],
+    "winning_patterns": [
+      "In-depth comparisons of tools",
+      "Tutorials on trending technologies",
+      "Product updates with actionable insights",
+      "Real-world testing results",
+      "Use case demonstrations"
+    ],
+    "top_hooks": [
+      "How I'd Learn n8n if I had to Start Over in 2026",
+      "100 Hours Testing Clawdbot vs Claude Code (honest results)",
+      "Agentic Workflows Just Changed AI Automation Forever! (Claude Code)",
+      "n8n 2.0 is Here (What You Need to Know)",
+      "Build ANYTHING with Gemini 3 Pro and n8n AI Agents"
+    ],
+    "content_formats": [
+      {
+        "format": "tutorial",
+        "why_it_works": "Provides step-by-step guidance, making complex topics accessible."
+      },
+      {
+        "format": "breakdown",
+        "why_it_works": "Offers detailed analysis and comparison, helping viewers make informed decisions."
+      }
+    ],
+    "cta_patterns": [
+      "Enroll in our course",
+      "Check out our other resources"
+    ],
+    "content_ideas": [
+      "How to Automate Your Workflow with n8n in 2026",
+      "Comparing AI Tools: Clawdbot vs Claude Code",
+      "The Future of AI Automation: What You Need to Know",
+      "Top Features of n8n 2.0 Explained",
+      "Building AI Agents with Gemini 3 Pro: A Step-by-Step Guide",
+      "Maximizing Efficiency with Automation Tools",
+      "Real-World Applications of AI in Business",
+      "A Beginner's Guide to n8n Automation",
+      "Understanding Agentic Workflows in AI",
+      "The Impact of AI on Productivity: A Comprehensive Review",
+      "How to Choose the Right AI Tool for Your Needs",
+      "Exploring the Latest Updates in n8n",
+      "Hands-On Testing: Clawdbot vs Claude Code",
+      "Creating Custom Workflows with n8n",
+      "The Role of AI in Modern Automation",
+      "Best Practices for Using AI Tools Effectively",
+      "Future Trends in AI Automation",
+      "How to Get Started with AI Automation",
+      "The Benefits of Using n8n for Automation",
+      "Advanced Techniques for n8n Users",
+      "Building a Career in AI and Automation"
+    ],
+    "key_takeaway": "Creating engaging content around automation and AI tools can drive significant viewer interest, especially through tutorials and detailed comparisons."
+  }
+}
